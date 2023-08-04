@@ -13,7 +13,7 @@ yarn add @hadnet/react-native-segmented-control
 ## Usage
 
 ```tsx
-import {SegmentedControl} from "react-native-segmented-control";
+import SegmentedControl, {Segment} from "@hadnet/react-native-segmented-control";
 
 export default function App() {
   return (
@@ -39,6 +39,7 @@ export default function App() {
             activeTitleStyle={{color: 'white'}}
             activeIconColor={'limegreen'}
             icon={
+              // Accepts react-native-vector-icons
               <MaterialCommunityIcons name="lightning-bolt" size={22} />
             }
           />,
