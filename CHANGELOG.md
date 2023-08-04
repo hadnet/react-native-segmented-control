@@ -1,5 +1,7 @@
 
 
+# [1.0.0-beta.1](https://github.com/hadnet/hadnet-react-native-segmented-control/compare/v1.0.0-beta.0...v1.0.0-beta.1) (2023-08-04)
+
 # 1.0.0-beta.0 (2023-08-04)
 
 
