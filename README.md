@@ -2,6 +2,8 @@
 
 A fully customizable iOS like segmented control component for RN CLI projects powered by Reanimated 2/3
 
+![segmented-control-preview](./preview.gif)
+
 ## Installation
 
 ```sh
