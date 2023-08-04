@@ -1,7 +1,7 @@
 {
   "name": "@hadnet/react-native-segmented-control",
   "version": "1.0.0-beta.0",
-  "description": "test",
+  "description": "A fully customizable iOS like segmented control component for RN CLI projects powered by Reanimated 2/3",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
