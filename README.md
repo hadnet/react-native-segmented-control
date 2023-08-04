@@ -1,6 +1,6 @@
 # @hadnet/react-native-segmented-control
 
-A fully customizable iOS like segmented control component for RN powered by Reanimated 2/3
+A fully customizable iOS like segmented control component for RN CLI projects powered by Reanimated 2/3
 
 ## Installation
 
