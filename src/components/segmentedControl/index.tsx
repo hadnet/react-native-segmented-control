@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect } from 'react';
+import React, {useCallback, useEffect} from 'react';
 import {
   TouchableOpacity,
   StyleSheet,
@@ -12,9 +12,9 @@ import Animated, {
   useSharedValue,
   withSpring,
 } from 'react-native-reanimated';
-import { trigger } from 'react-native-haptic-feedback';
-import { widthPercentageToDP } from 'react-native-responsive-screen';
-import type { SegmentedControlProps, SegmentProps } from './types';
+import {trigger} from 'react-native-haptic-feedback';
+import {widthPercentageToDP} from 'react-native-responsive-screen';
+import type {SegmentedControlProps, SegmentProps} from './types';
 
 const defaultShadowStyle = {
   shadowColor: '#000',
@@ -84,7 +84,7 @@ const SegmentedControl = ({
 
   const tabTranslateAnimatedStyles = useAnimatedStyle(() => {
     return {
-      transform: [{ translateX: tabTranslateValue.value }],
+      transform: [{translateX: tabTranslateValue.value}],
     };
   });
 
@@ -171,7 +171,7 @@ const SegmentedControl = ({
             style={[
               styles.touchableContainer,
               pressableWrapper,
-              { paddingVertical },
+              {paddingVertical},
             ]}
           >
             {typeof segment === 'string' ? (
@@ -238,8 +238,8 @@ export function Segment<T extends boolean | undefined>({
 SegmentProps<T>) {
   const flexDirection = column ? 'column' : 'row';
   const pos: ViewStyle = !flexDirection
-    ? { alignItems: (position as ViewStyle['alignItems']) ?? 'center' }
-    : { justifyContent: (position as ViewStyle['justifyContent']) ?? 'center' };
+    ? {alignItems: (position as ViewStyle['alignItems']) ?? 'center'}
+    : {justifyContent: (position as ViewStyle['justifyContent']) ?? 'center'};
   const activeTitleDefaultStyle = {
     fontSize: 15,
     fontWeight: 'bold',
@@ -260,9 +260,9 @@ SegmentProps<T>) {
       inactiveTitleStyle?.color ??
       inactiveTitleDefaultStyle.color;
   return (
-    <View style={[styles.segmentWrapper, { padding, flexDirection, ...pos }]}>
-      <Text style={{ color: iconStatusColor }}>{icon ?? leftIcon}</Text>
-      <View style={{ width: space }} />
+    <View style={[styles.segmentWrapper, {padding, flexDirection, ...pos}]}>
+      <Text style={{color: iconStatusColor}}>{icon ?? leftIcon}</Text>
+      <View style={{width: space}} />
       <Text
         style={
           active
@@ -272,8 +272,8 @@ SegmentProps<T>) {
       >
         {title}
       </Text>
-      <View style={{ width: space }} />
-      <Text style={{ color: iconStatusColor }}>{rightIcon}</Text>
+      <View style={{width: space}} />
+      <Text style={{color: iconStatusColor}}>{rightIcon}</Text>
       {badgeValue != null && (
         <View
           style={[styles.defaultBadgeContainerStyle, badgeValueStatusStyle]}

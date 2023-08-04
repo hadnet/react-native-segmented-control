@@ -41,13 +41,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/hadnet/hadnet-react-native-segmented-control",
+  "repository": "https://github.com/hadnet/react-native-segmented-control",
   "author": "hadnet <hadnet1@gmail.com> (https://github.com/hadnet)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hadnet/hadnet-react-native-segmented-control/issues"
+    "url": "https://github.com/hadnet/react-native-segmented-control/issues"
   },
-  "homepage": "https://github.com/hadnet/hadnet-react-native-segmented-control#readme",
+  "homepage": "https://github.com/hadnet/react-native-segmented-control#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
@@ -145,6 +145,7 @@
   ],
   "prettier": {
     "quoteProps": "consistent",
+    "bracketSpacing": false,
     "singleQuote": true,
     "tabWidth": 2,
     "trailingComma": "es5",

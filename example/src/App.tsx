@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { StyleSheet, View } from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import SegmentedControl, {
   Segment,
 } from '@hadnet/react-native-segmented-control';
@@ -27,15 +27,15 @@ export default function App() {
         segments={[
           <Segment
             title="GPT-3.5"
-            inactiveTitleStyle={{ color: '#9a999f' }}
-            activeTitleStyle={{ color: 'white' }}
+            inactiveTitleStyle={{color: '#9a999f'}}
+            activeTitleStyle={{color: 'white'}}
             activeIconColor={'limegreen'}
             // icon={<MaterialCommunityIcons name="lightning-bolt" size={22} />}
           />,
           <Segment
             title="GPT-4"
-            inactiveTitleStyle={{ color: '#9a999f' }}
-            activeTitleStyle={{ color: 'white' }}
+            inactiveTitleStyle={{color: '#9a999f'}}
+            activeTitleStyle={{color: 'white'}}
             activeIconColor={'#9978f2'}
             // icon={<MaterialIcons name="auto-awesome" size={18} />}
           />,

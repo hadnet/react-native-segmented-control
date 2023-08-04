@@ -1,7 +1,4 @@
-import type {
-  TextStyle,
-  ViewStyle,
-} from 'react-native';
+import type {TextStyle, ViewStyle} from 'react-native';
 
 type SetPos<T extends boolean | undefined> = T extends false | undefined
   ? ViewStyle['justifyContent']
