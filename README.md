@@ -10,6 +10,12 @@ A fully customizable iOS like segmented control component for RN CLI projects po
 yarn add @hadnet/react-native-segmented-control
 ```
 
+### Dependencies
+
+```
+react-native-haptic-feedback react-native-reanimated
+```
+
 ## Usage
 
 ```tsx
