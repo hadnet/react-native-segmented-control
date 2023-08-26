@@ -1,3 +1,7 @@
+[![Licensen](https://img.shields.io/github/package-json/license/hadnet/react-native-segmented-control/master?label=License&style=flat-square)](https://www.npmjs.com/package/@hadnet/react-native-segmented-control)
+[![npm](https://img.shields.io/badge/Types-included-blue?style=flat-square)](https://www.npmjs.com/package/@hadnet/react-native-segmented-control)
+[![npm](https://img.shields.io/npm/dt/@hadnet/react-native-segmented-control.svg)](https://www.npmjs.com/package/@hadnet/react-native-segmented-control)
+
 # @hadnet/react-native-segmented-control
 
 A fully customizable iOS like segmented control component for RN CLI projects powered by Reanimated 2/3
